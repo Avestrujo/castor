@@ -1,0 +1,24 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class dos : MonoBehaviour
+{
+    public List<string> inventario = new List<string>();
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        inventario.Add("Espada");
+        inventario.Add("Boomerang");
+        inventario.Add("Arco");
+
+        print("cantidad total de items: " + inventario.Count);
+        int randomIndex = Random.Range(0, inventario.Count - 1);
+        print("item al azar: " + inventario[randomIndex]);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
