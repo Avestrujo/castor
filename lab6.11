@@ -1,0 +1,24 @@
+using UnityEngine;
+
+public class doce : MonoBehaviour
+{
+    public int[] numeros = new int[5] {1, 2, 3, 4, 5};
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        if (numeros[0] == numeros.Length - 1)
+        {
+            print("son iguales");
+        }
+        else
+        {
+            print("no son iguales");
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
