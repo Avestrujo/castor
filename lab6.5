@@ -1,0 +1,26 @@
+using UnityEngine;
+
+public class seis : MonoBehaviour
+{
+    public int[] numeros = new int[5];
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+      numeros[0] = 2;
+      numeros[1] = 4;
+      numeros[2] = 8;
+      numeros[3] = 16;
+      numeros[4] = 32;
+
+        print("primer valor: " + numeros[0]);
+        print("último valor: " + numeros[numeros.Length - 1]);
+
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
