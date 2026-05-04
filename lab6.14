@@ -1,0 +1,33 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class quince : MonoBehaviour
+{ 
+    List<int> elementos = new List<int>();
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        elementos.Add(10);
+        elementos.Add(20);
+        elementos.Add(30);
+
+       if (elementos[0] == 10)
+       {
+            print("es igual");
+       }
+       else
+       {
+            print("no es igual");
+       }
+
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
