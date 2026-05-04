@@ -1,0 +1,24 @@
+using UnityEngine;
+
+public class once : MonoBehaviour
+{
+    public int[] numeros = new int[3] { 1, 2, 3 };
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        if (numeros[0] > numeros[1])
+        {
+            print("posición 0 es mayor");
+        }
+        else if (numeros[1] > numeros[0])
+        { 
+            print("posición 1 es mayor"); 
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
