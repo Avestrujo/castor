@@ -1,0 +1,25 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class nueve : MonoBehaviour
+{ List<string> algo = new List<string>();
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        algo.Add("colchon");
+        algo.Add("lámpara");
+        algo.Add("sombrilla");
+
+        algo.Remove("lámpara");
+
+        print("total de elementos: " + algo.Count);
+
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
