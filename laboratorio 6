@@ -1,1 +1,22 @@
+using UnityEngine;
 
+public class uno : MonoBehaviour
+{
+    int[] puntajes = new int[5];
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    { puntajes[0] = 1;
+      puntajes[1] = 2;
+      puntajes[2] = 3;
+      puntajes[3] = 4;
+      puntajes[4] = 5;
+
+        print("segundo puntaje: " + puntajes[2]);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
